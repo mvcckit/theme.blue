@@ -102,9 +102,15 @@
  * <input type="submit" class="o-btn c-btn-outline"/>
  */
 
-.c-btn-outline:active {
-    background-color: #3E7FB9;
+.c-btn-outline, 
+.c-btn-outline:hover {
+    background: transparent;
 }
+
+	.c-btn-outline:active {
+	    border-color: transparent;
+	    background-color: #3E7FB9;
+	}
 /* 
    #colors
    ========================================================================== */
